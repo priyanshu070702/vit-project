@@ -1,0 +1,11 @@
+.color{
+    background-color: #243A73;
+}
+
+.profileimage{
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    position: relative;
+    border-radius: 100%;
+}

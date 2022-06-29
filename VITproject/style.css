@@ -77,3 +77,35 @@ html{
     justify-content: center;
     text-align: center;
 }
+
+.col{
+position:relative;
+top: 10px;
+}
+
+label{
+    position: relative;
+    top:20px;
+    left:0;
+    transform: translate(10px,10px);
+    transform-origin: left;
+    transition: transform .25s;
+}
+
+#Name{
+    padding: 10px;
+    border:none;
+    border-radius: 4px;
+    font:inherit;
+    color: black;
+    background-color: transparent;
+    outline: 2px solid #fff;
+}
+
+.col:focus-within label{
+    transform:translate(0,-30px) scale(.8);
+    color: black;
+}
+.col:focus-within #Name{
+    outline-color: black;
+}
